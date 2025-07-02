@@ -24,7 +24,7 @@ services:
       PMA_HOST: mysql_sgbd
       MYSQL_ROOT_PASSWORD: rootpass
     ports:
-      - "8081:80"
+      - "8085:80"
 
 volumes:
   mysql_data:
